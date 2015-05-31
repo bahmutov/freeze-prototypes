@@ -1,5 +1,5 @@
 /**
- freeze-prototypes@0.1.0
+ freeze-prototypes@0.1.1
  Freezes common prototypes like Array.prototype to avoid any library messing with them
  Gleb Bahmutov <gleb.bahmutov@gmail.com>
  https://github.com/bahmutov/freeze-prototypes

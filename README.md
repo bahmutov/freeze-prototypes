@@ -12,6 +12,19 @@ Read [Unapply attack](http://glebbahmutov.com/blog/unapply-attack/)
 [ci-url]: https://travis-ci.org/bahmutov/freeze-prototypes
 [nodei.co]: https://nodei.co/npm/freeze-prototypes.png?downloads=true
 
+## Use
+
+Include after main trusted libraries are loaded, maybe before your own app code,
+but before untrusted 3rd party code
+
+```html
+<script src="//cdn/jquery.js"></script>
+<script src="//cdn/angular.js"></script>
+<script src="dist/freeze-prototypes.js"></script>
+<script src="<your app code>"></script>
+<script src="<untrusted 3rd party code>"></script>
+```
+
 ## Small print
 
 Author: Gleb Bahmutov &copy; 2015
