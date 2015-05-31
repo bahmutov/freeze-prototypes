@@ -1,0 +1,26 @@
+{
+  "name": "freeze-prototypes",
+  "version": "0.1.0",
+  "description": "Freezes common prototypes like Array.prototype to avoid any library messing with them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bahmutov/freeze-prototypes.git"
+  },
+  "keywords": [
+    "security",
+    "prototype",
+    "javascript",
+    "closures",
+    "attack"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/freeze-prototypes/issues"
+  },
+  "homepage": "https://github.com/bahmutov/freeze-prototypes"
+}
