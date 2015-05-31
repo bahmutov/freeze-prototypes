@@ -2,8 +2,9 @@
   "name": "freeze-prototypes",
   "version": "0.1.0",
   "description": "Freezes common prototypes like Array.prototype to avoid any library messing with them",
-  "main": "index.js",
+  "main": "dist/freeze-prototypes.js",
   "scripts": {
+    "build": "grunt",
     "test": "mocha -R spec spec.js"
   },
   "repository": {
@@ -24,7 +25,10 @@
   },
   "homepage": "https://github.com/bahmutov/freeze-prototypes",
   "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-contrib-concat": "0.5.1",
     "lazy-ass": "0.5.8",
+    "matchdep": "0.3.0",
     "mocha": "2.2.5",
     "pre-git": "0.2.1"
   },
