@@ -1,6 +1,6 @@
 {
   "name": "freeze-prototypes",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Freezes common prototypes like Array.prototype to avoid any library messing with them",
   "main": "dist/freeze-prototypes.js",
   "scripts": {

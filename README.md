@@ -25,6 +25,21 @@ but before untrusted 3rd party code
 <script src="<untrusted 3rd party code>"></script>
 ```
 
+## Old browsers
+
+If you run in an old browser that does NOT have `Object.freeze`, then it is
+
+* insecure browser
+* can be worked around to avoid crashing inside `freeze-prototypes`
+
+```html
+<script>
+// fake version to let freeze-prototypes to pass
+Object.freeze = function nothing() {};
+</script>
+<script src="dist/freeze-prototypes.js"></script>
+```
+
 ## Small print
 
 Author: Gleb Bahmutov &copy; 2015
